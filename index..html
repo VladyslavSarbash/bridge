@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./index.css" />
+    <title>Bridge</title>
+  </head>
+  <body>
+    <main class="main">
+      <h1>Количество очков</h1>
+      <div class="main_children">
+        <div class="first_player">
+          <h2>Vlad</h2>
+          <form>
+            <label>
+              <p class="text">Очков за партию</p>
+              <input class="first_player_value" type="number" value="0" />
+            </label>
+            <button class="first_player_submit" type="submit">Ввод</button>
+          </form>
+          <p class="first_player_points">0</p>
+          <button class="first_player_button" type="button">Обнуление</button>
+          <ol class="first_player_list_points"></ol>
+        </div>
+        <div class="second_player">
+          <h2>Anna</h2>
+          <form>
+            <label>
+              <p class="text">Очков за партию</p>
+              <input class="second_player_value" type="number" value="0" />
+            </label>
+            <button class="second_player_submit" type="submit">Ввод</button>
+          </form>
+          <p class="second_player_points">0</p>
+          <button class="second_player_button" type="button">Обнуление</button>
+          <ol class="second_player_list_points"></ol>
+        </div>
+      </div>
+    </main>
+    <script src="./index.js"></script>
+  </body>
+</html>

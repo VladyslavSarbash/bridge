@@ -1,0 +1,39 @@
+body {
+  display: flex;
+  justify-content: center;
+}
+.main {
+  width: 1280px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.main_children {
+  /* width: 480px; */
+  display: flex;
+  justify-content: center;
+}
+
+.main_children > div {
+  width: 480px;
+  text-align: center;
+}
+
+.text {
+  font-size: 20px;
+}
+
+.first_player_points {
+  font-size: 24px;
+}
+
+.second_player_points {
+  font-size: 24px;
+}
+
+.first_player_list_points,
+.second_player_list_points {
+  font-size: 24px;
+}
